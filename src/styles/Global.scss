@@ -1,0 +1,26 @@
+@import "fonts";
+
+.selection-container {
+  width: 96%;
+  min-height: 35em;
+  height: 96%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(white, 0.85);
+  box-shadow: 10px 10px 20px #00000066;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  .rectangle-container {
+    position: relative;
+    .rectangle {
+      position: absolute;
+      width: 254px;
+      height: 15px;
+      background-color: $green;
+      left: 50%;
+      margin-left: -127px;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$heading1: normal normal 900 4.6rem/6.2rem Poppins;
+$heading2: normal normal 400 2.3rem/3rem Poppins;
+$button: normal normal 400 2.5rem/3.3rem Poppins;
+$button2: normal normal 400 2rem/2.8rem Poppins;
+$button3: normal normal 400 1.04rem/1.375rem Poppins;
+$body1: normal normal normal 1.87rem/2.5rem Poppins;
+$body2: normal normal 500 1.46rem/1.96rem Poppins;
+$body3: normal normal bold 1.6rem/2.7rem Poppins;
+$pin-font: normal normal 400 2.9rem/3.9rem Poppins;
+$sport-font1: normal normal normal 1.7rem/2.2rem Poppins;
+$sport-font2: normal normal bold 1.5rem/1.9rem Poppins;
+$sport-font3: normal normal normal 1.2rem/1.6rem Poppins;
+$sport-font4: normal normal bold 1.1rem/1.45rem Poppins;
+
+$white: #ffffff;
+$middle-gray: #505050;
+$green: #00b745;
+$blue: #008dc8;
+
+body,
+h1,
+h2,
+p,
+div,
+input,
+span,
+td,
+ul,
+li {
+  font-family: Poppins;
+}
+
+.heading1 {
+  font: $heading1;
+  text-transform: uppercase;
+  color: $white;
+  text-shadow: 5px 5px 20px #000000b3;
+  opacity: 1;
+  letter-spacing: 0px;
+}
+
+.heading2 {
+  font: $heading2;
+  text-align: center;
+  letter-spacing: 0px;
+  color: $middle-gray;
+  opacity: 1;
+  padding: 1em;
+}
+
+.button-font {
+  font: $button;
+}
+
+.button2-font {
+  font: $button2;
+}
+
+.button3-font {
+  font: $button3;
+}
+
+.body1 {
+  font: $body1;
+  letter-spacing: 0px;
+  color: $middle-gray;
+  opacity: 1;
+}
+
+.body2 {
+  font: $body2;
+  letter-spacing: 0px;
+  color: $middle-gray;
+  opacity: 1;
+}
+.body3 {
+  font: $body3;
+  letter-spacing: 0px;
+  color: $blue;
+  opacity: 1;
+}
+.pin-font {
+  text-align: center;
+  font: $pin-font;
+  letter-spacing: 17.5px;
+  color: #008dc8;
+  opacity: 1;
+}
+
+.sport-font1 {
+  font: $sport-font1;
+  letter-spacing: 0px;
+  color: $blue;
+  opacity: 1;
+}
+.sport-font2 {
+  font: $sport-font2;
+  letter-spacing: 0px;
+  color: $blue;
+  opacity: 1;
+}
+.sport-font3 {
+  font: $sport-font3;
+  letter-spacing: 0px;
+  color: $white;
+  opacity: 1;
+}
+.sport-font4 {
+  font: $sport-font4;
+  letter-spacing: 0px;
+  color: $white;
+  opacity: 1;
+}

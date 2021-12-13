@@ -1,0 +1,15 @@
+.cover{
+    //background: transparent url('../../assets/images/fondo.jpg') 0% 0% no-repeat padding-box;
+    background: url('../../assets/images/fondo.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    .logo{
+        position: fixed;
+        left: 3em;
+        top: 36.5em;
+        width: 7.2em;
+    }
+    
+}
