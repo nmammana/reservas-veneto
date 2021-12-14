@@ -17,6 +17,7 @@ export default function Home() {
                     let reservationData = {
                         date : "",
                         username: dataBlock.user.name,
+                        apartment: `Torre ${dataBlock.user.tower}, ${dataBlock.user.floor}°${dataBlock.user.apartment}`,
                         sport: "",
                         hasIdentityNumber: "",
                         identityNumber: "",

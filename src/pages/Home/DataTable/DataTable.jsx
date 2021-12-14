@@ -12,12 +12,17 @@ export default function DataTable({reservations}) {
       field: 'date',
       searchable: false,
       filtering: true,
-      filterPlaceholder: "Filtrar fecha..."
+     /*  filterPlaceholder: "Filtrar fecha..." */
     },{
       title: 'Nombre del propietario',
       field: 'username',
       filtering: true,
-      filterPlaceholder: "Filtrar nombre..."
+      /* filterPlaceholder: "Filtrar nombre..." */
+    },{
+      title: 'Departamento',
+      field: 'apartment',
+      filtering: true,
+      /* filterPlaceholder: "Filtrar depto..." */
     },{
       title: 'Tipo de reserva',
       field: 'sport',
@@ -31,7 +36,7 @@ export default function DataTable({reservations}) {
         'Bochas cancha 2': 'Bochas cancha 2',
       },
     },{
-      title: 'Propietario/Inquilino',
+      title: 'Propietario/ Inquilino',
       field: 'hasIdentityNumber',
       searchable: false,
       lookup: { 'Propietario': 'Propietario', 'Inquilino': 'Inquilino' },
@@ -39,7 +44,7 @@ export default function DataTable({reservations}) {
       title: 'Documento',
       field: 'identityNumber',
       filtering: true,
-      filterPlaceholder: "Filtrar DNI..."
+      /* filterPlaceholder: "Filtrar DNI..." */
     },{
       title: 'Horas reservadas',
       field: 'hours',
